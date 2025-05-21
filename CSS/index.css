@@ -26,6 +26,19 @@ header{
 
 }
 
+#nav-links a:hover{
+    color: black;
+    border: solid white;
+}
+
+
+h1 {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+}
+
+
 
 
 body {
