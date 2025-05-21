@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 3rem;
+    background-color: rgb(102, 74, 74);
+    align-content: center;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row; 
+  list-style: none;
+  align-items: center;
+  font-size: 23px;
+}
+
+/* the actual links */
+#nav-links a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+
+body {
+
+    background: blanchedalmond;
+}
+
+
+
+
