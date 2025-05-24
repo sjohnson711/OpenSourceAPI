@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* for the entire page*/
 }
 
 header{
@@ -29,6 +29,17 @@ header{
 #nav-links a:hover{
     color: black;
     border: solid white;
+}
+
+/*container holding the coffee image */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#coffee-pic {
+   border-radius: 100px;
+   height: 200px
 }
 
 
