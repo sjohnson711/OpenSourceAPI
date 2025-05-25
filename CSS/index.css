@@ -6,11 +6,7 @@
 body {
     margin: 16px 30px;
     background-image: url("../images/background-webpage-coffee.jpg");
-    height: 100vh;
-
-   
-    
-
+    height: 100vh;  
 }
 
 header{
@@ -72,7 +68,7 @@ h1 {
 
 
 h2 {
-   -webkit-text-stroke: 2px black; /* width and color */
+   -webkit-text-stroke: 2px black; /* for black lining for the colors*/
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
@@ -81,56 +77,76 @@ h2 {
     
 }
 
-/* facts section in the middle of the page */
-.list-of-facts {
-   
-    
-    
-    
+.hero-container-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-/* section for the text of facts and the bubble in the middle */
-.hero-container-list {
-    display: grid;
-    list-style-type: none;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto ;
-    grid-template-areas: 
-        "list-of-facts  form"
-        "card  footer";
-    padding: 22px 70px 
-}
+
 .list-of-facts {
-    color: orangered;
-    font-weight: bold;
-    background-color: antiquewhite;
-    padding: 25px;
-    border-radius: 70px;
-    list-style-type: none;
+  background-color: antiquewhite;
+  color: orangered;
+  font-weight: bold;
+  padding: 25px;
+  border-radius: 20px;
+  list-style-type: none;
 }
 
 .ice-brew-coffee {
-    margin-left: 100px;
-    background-color: #ad5959;
-    
+  background-color: #ad5959;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ice-brew-coffee img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .card {
-    height: 200px;
-    background: white;
+  background: #ad5958;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
 }
 
+.coffeeDisplay {
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-@media (max-width: 768px) {
-  .hero-container-list {
-    border-color: blue;
-    background: white;
-  }
-  .list-of-facts {
-    
-  }
+#coffeeDisplay img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+}
 
+#hotButton {
+    padding: 10px;
+    background-color: rgb(218, 37, 52);
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
 
+}
 
+#coldButton {
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border-radius: 20px;
+    font-weight: bold;
 }

@@ -2,16 +2,20 @@
 async function getRandomCoffee(type){
     const url1 = `https://api.sampleapis.com/coffee/${type}`
     try { 
-        const res = await fetch(url1); //awaiting fetch call from API
+        const resp = await fetch(url1); //awaiting fetch call from API
         const coffees = await resp.json(); //receiving data from API
+
+        if(!Array.isArray(coffees) || coffees.length === 0){
+            throw new Error("No coffee data available at this moment due to the server")
+        }
 
         const randomIndex = Math.floor(Math.random()* coffees.length);
         const coffee = coffees[randomIndex];
 
-        displayCoffee(); //displayCoffee
+        displayCoffee(coffee); //displayCoffee
 
     }catch(error) {
-        document.getElementById('coffeeDisplay').innerText = "Error: " + error.message
+        document.getElementById('coffeeDisplay').innerText = "Error: " + error.message;
     }
 }
 
