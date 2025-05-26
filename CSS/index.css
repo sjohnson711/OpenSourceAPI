@@ -62,7 +62,7 @@ h1 {
    justify-content: center;
    margin-top: 20px;
    font-family: 'Times New Roman', Times, serif;
-   color: #ad5958;
+   color: rgb(102, 74, 74);
    font-size: 3em;
    
 
@@ -74,7 +74,7 @@ h2 {
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
-    color: #ad5958;
+    color: rgb(102, 74, 74);
     
     
 }
@@ -92,7 +92,7 @@ h2 {
 
 .list-of-facts {
   background-color: antiquewhite;
-  color: #ad5959;
+  color: rgb(102, 74, 74);
   font-weight: bold;
   padding: 25px;
   border-radius: 20px;
@@ -167,10 +167,12 @@ h2 {
     
 }
 #coffee-description {
-  -webkit-text-stroke: 2px black;
-   Color: #ad5958;
+  /* -webkit-text-stroke: 2px black; */
+   Color: rgb(78, 47, 47);
    font-weight: bold;
    font-size: 32px;
+   background-color: white;
+   margin-top: 20px;
 }
 
 
