@@ -47,10 +47,12 @@ header{
     justify-content: center;
     margin-top: 20px;
     
+    
 }
 #coffee-pic {
    border-radius: 100px;
-   height: 200px
+   height: 200px;
+   
 }
 
 
@@ -60,7 +62,7 @@ h1 {
    justify-content: center;
    margin-top: 20px;
    font-family: 'Times New Roman', Times, serif;
-   color: orangered;
+   color: #ad5958;
    font-size: 3em;
    
 
@@ -72,7 +74,7 @@ h2 {
     text-align: center;
     margin-top: 50px;
     font-size: 40px;
-    color: orangered
+    color: #ad5958;
     
     
 }
@@ -114,8 +116,8 @@ h2 {
 
 #coffee-list:hover{
   margin-right: 10px;
-  background-color: orangered;
-  color: white;
+  background-color: black;
+  color: #ad5958;
   font-weight: bold;
 }
 
@@ -126,12 +128,14 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .ice-brew-coffee img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+  
 }
 
 .card {
@@ -142,6 +146,7 @@ h2 {
   width: 600px;
   align-self: center;
   justify-self: center;
+  
   
 }
 
@@ -162,7 +167,10 @@ h2 {
     
 }
 #coffee-description {
-   Color: black;
+  -webkit-text-stroke: 2px black;
+   Color: #ad5958;
+   font-weight: bold;
+   font-size: 32px;
 }
 
 
@@ -171,6 +179,7 @@ h2 {
   height: auto;
   margin-top: 10px;
   border-radius: 10px;
+  
 }
 
 #hotButton {
