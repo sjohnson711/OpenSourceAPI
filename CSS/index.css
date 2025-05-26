@@ -90,11 +90,33 @@ h2 {
 
 .list-of-facts {
   background-color: antiquewhite;
-  color: orangered;
+  color: #ad5959;
   font-weight: bold;
   padding: 25px;
   border-radius: 20px;
   list-style-type: none;
+  font-size: 18px
+}
+
+#coffee-list {
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out;
+    background-color: #ad5959;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+    
+}
+
+
+
+#coffee-list:hover{
+  margin-right: 10px;
+  background-color: orangered;
+  color: white;
+  font-weight: bold;
 }
 
 .ice-brew-coffee {
@@ -117,15 +139,32 @@ h2 {
   padding: 20px;
   border-radius: 10px;
   text-align: center;
+  width: 600px;
+  align-self: center;
+  justify-self: center;
+  
 }
 
 .coffeeDisplay {
-  background-color: white;
+  font-weight: bold;
+  font-size: 28px;
   text-align: center;
+  justify-content: center;
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+#card-title {
+    color: black;
+    margin-bottom: 70px;
+    width: auto;
+    
+}
+#coffee-description {
+   Color: black;
+}
+
 
 #coffeeDisplay img {
   max-width: 100%;
