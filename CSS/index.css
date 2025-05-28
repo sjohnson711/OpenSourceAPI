@@ -128,17 +128,21 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image:url("../images/coffeebackground.png")
   
 }
 
 .ice-brew-coffee img {
+ 
   max-width: 100%;
   height: auto;
   border-radius: 10px;
+
   
 }
 
 .card {
+  /* flex: 1 1 200px; */
   background: #ad5958;
   padding: 20px;
   border-radius: 10px;
@@ -146,6 +150,7 @@ h2 {
   width: 600px;
   align-self: center;
   justify-self: center;
+  
   
   
 }
