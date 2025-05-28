@@ -141,7 +141,7 @@ h2 {
 
 .card {
   /* flex: 1 1 200px; */
-  background: #ad5958;
+  background:  rgb(78, 47, 47);
   padding: 20px;
   border-radius: 10px;
   text-align: center;
@@ -174,7 +174,7 @@ h2 {
    Color: rgb(78, 47, 47);
    font-weight: bold;
    font-size: 32px;
-   background-color: white;
+   background-color: rgb(223, 199, 152);
    margin-top: 20px;
 }
 
@@ -203,3 +203,28 @@ h2 {
     border-radius: 20px;
     font-weight: bold;
 }
+
+
+
+@media (max-width: 968px) {
+
+ 
+  .hero-container-list{
+    display: flex;
+    justify-content: center;
+  }
+  .ice-brew-coffee {
+    display:flex;
+    justify-content: center;
+    width: 500px;
+  }
+  .card {
+    background: orange
+  }
+  .list-of-facts{
+    display: none;
+  }
+  }
+
+  
+  
