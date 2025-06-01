@@ -3,7 +3,7 @@
 > One-liner summary or tagline for the project.
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Build](https://img.shields.io/github/workflow/status/username/repo-name/CI)
+![Build](https://github.com/sjohnson711/OpenSourceAPI/tree/main)
 
 ## Table of Contents
 
